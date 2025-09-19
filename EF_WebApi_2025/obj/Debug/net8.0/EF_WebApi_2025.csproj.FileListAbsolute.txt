@@ -170,3 +170,4 @@ D:\UTN\EF_WebApi_2025\EF_WebApi_2025\obj\Debug\net8.0\refint\EF_WebApi_2025.dll
 D:\UTN\EF_WebApi_2025\EF_WebApi_2025\obj\Debug\net8.0\EF_WebApi_2025.pdb
 D:\UTN\EF_WebApi_2025\EF_WebApi_2025\obj\Debug\net8.0\EF_WebApi_2025.genruntimeconfig.cache
 D:\UTN\EF_WebApi_2025\EF_WebApi_2025\obj\Debug\net8.0\ref\EF_WebApi_2025.dll
+D:\UTN\EF_WebApi_2025\EF_WebApi_2025\obj\Debug\net8.0\EF_WebApi_2025.sourcelink.json

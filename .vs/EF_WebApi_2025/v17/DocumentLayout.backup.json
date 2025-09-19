@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\UTN\\EF_WebApi_2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{44A1D3D4-1C06-4EED-AD69-49CFC82BABBB}|EF_WebApi_2025\\EF_WebApi_2025.csproj|d:\\utn\\ef_webapi_2025\\ef_webapi_2025\\data\\repositories\\librorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44A1D3D4-1C06-4EED-AD69-49CFC82BABBB}|EF_WebApi_2025\\EF_WebApi_2025.csproj|solutionrelative:ef_webapi_2025\\data\\repositories\\librorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{44A1D3D4-1C06-4EED-AD69-49CFC82BABBB}|EF_WebApi_2025\\EF_WebApi_2025.csproj|d:\\utn\\ef_webapi_2025\\ef_webapi_2025\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44A1D3D4-1C06-4EED-AD69-49CFC82BABBB}|EF_WebApi_2025\\EF_WebApi_2025.csproj|solutionrelative:ef_webapi_2025\\controllers\\libroscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44A1D3D4-1C06-4EED-AD69-49CFC82BABBB}|EF_WebApi_2025\\EF_WebApi_2025.csproj|d:\\utn\\ef_webapi_2025\\ef_webapi_2025\\data\\repositories\\librorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44A1D3D4-1C06-4EED-AD69-49CFC82BABBB}|EF_WebApi_2025\\EF_WebApi_2025.csproj|solutionrelative:ef_webapi_2025\\data\\repositories\\librorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44A1D3D4-1C06-4EED-AD69-49CFC82BABBB}|EF_WebApi_2025\\EF_WebApi_2025.csproj|d:\\utn\\ef_webapi_2025\\ef_webapi_2025\\data\\models\\librosdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,18 +46,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LibrosDbContext.cs",
-              "DocumentMoniker": "D:\\UTN\\EF_WebApi_2025\\EF_WebApi_2025\\Data\\Models\\LibrosDbContext.cs",
-              "RelativeDocumentMoniker": "EF_WebApi_2025\\Data\\Models\\LibrosDbContext.cs",
-              "ToolTip": "D:\\UTN\\EF_WebApi_2025\\EF_WebApi_2025\\Data\\Models\\LibrosDbContext.cs",
-              "RelativeToolTip": "EF_WebApi_2025\\Data\\Models\\LibrosDbContext.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwBIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-17T18:54:38.492Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\UTN\\EF_WebApi_2025\\EF_WebApi_2025\\appsettings.json",
@@ -70,28 +58,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LibroRepository.cs",
               "DocumentMoniker": "D:\\UTN\\EF_WebApi_2025\\EF_WebApi_2025\\Data\\Repositories\\LibroRepository.cs",
               "RelativeDocumentMoniker": "EF_WebApi_2025\\Data\\Repositories\\LibroRepository.cs",
               "ToolTip": "D:\\UTN\\EF_WebApi_2025\\EF_WebApi_2025\\Data\\Repositories\\LibroRepository.cs",
               "RelativeToolTip": "EF_WebApi_2025\\Data\\Repositories\\LibroRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAIwDEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-17T19:04:07.916Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LibrosController.cs",
               "DocumentMoniker": "D:\\UTN\\EF_WebApi_2025\\EF_WebApi_2025\\Controllers\\LibrosController.cs",
               "RelativeDocumentMoniker": "EF_WebApi_2025\\Controllers\\LibrosController.cs",
-              "ToolTip": "D:\\UTN\\EF_WebApi_2025\\EF_WebApi_2025\\Controllers\\LibrosController.cs",
-              "RelativeToolTip": "EF_WebApi_2025\\Controllers\\LibrosController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAwwBkAAAAwAAAAAAAAAA==",
+              "ToolTip": "D:\\UTN\\EF_WebApi_2025\\EF_WebApi_2025\\Controllers\\LibrosController.cs*",
+              "RelativeToolTip": "EF_WebApi_2025\\Controllers\\LibrosController.cs*",
+              "ViewState": "AgIAABQAAAAAAAAAAAAmwDIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-18T13:23:44.657Z"
+              "WhenOpened": "2025-09-18T13:23:44.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LibrosDbContext.cs",
+              "DocumentMoniker": "D:\\UTN\\EF_WebApi_2025\\EF_WebApi_2025\\Data\\Models\\LibrosDbContext.cs",
+              "RelativeDocumentMoniker": "EF_WebApi_2025\\Data\\Models\\LibrosDbContext.cs",
+              "ToolTip": "D:\\UTN\\EF_WebApi_2025\\EF_WebApi_2025\\Data\\Models\\LibrosDbContext.cs",
+              "RelativeToolTip": "EF_WebApi_2025\\Data\\Models\\LibrosDbContext.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAIwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T18:54:38.492Z"
             },
             {
               "$type": "Document",

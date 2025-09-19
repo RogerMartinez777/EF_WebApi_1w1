@@ -31,7 +31,26 @@ namespace EF_WebApi_2025.Controllers
             }
         }
 
-    
+        // GET api/Libros/5
+        [HttpGet("{id}")]
+        public IActionResult Get(int id)
+        {
+            try
+            {
+                var libro = _repository.GetById(id);
+                if (libro == null)
+                {
+                    return NotFound($"Libro con el ID {id} no encontrado.");
+                }
+                return Ok(libro);
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "Ha ocurrido un error interno al obtener el libro.");
+            }
+        }
+
+
         // POST api/<LibrosController>
         [HttpPost]
         public IActionResult Post([FromBody] Libro libro)
@@ -69,11 +88,45 @@ namespace EF_WebApi_2025.Controllers
             }
         }
 
+        // PUT api/Libros/5
+        [HttpPut("{id}")]
+        public IActionResult Put(int id, [FromBody] Libro libro)
+        {
+            try
+            {
+                // 1. Buscamos el libro existente en la base de datos.
+                //    Este objeto es rastreado por el DbContext.
+                var existingLibro = _repository.GetById(id);
+
+                // Si el libro no existe, no hay nada que actualizar.
+                if (existingLibro == null)
+                {
+                    return NotFound($"No se puede actualizar. Libro con el ID {id} no encontrado.");
+                }
+
+                // 2. Copiamos los valores actualizados del objeto 'libro' al 'existingLibro'
+                existingLibro.Isbn = libro.Isbn;
+                existingLibro.Nombre = libro.Nombre;
+                existingLibro.FechaPublicacion = libro.FechaPublicacion;
+                existingLibro.Genero = libro.Genero;
+                existingLibro.Autor = libro.Autor;
+
+                // 3. Llamamos al método Update del repositorio
+                _repository.Update(existingLibro);
+
+                return Ok("Libro actualizado correctamente.");
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, "Ha ocurrido un error interno al actualizar el libro.");
+            }
+        }
+
         private bool isValid(Libro libro) // valida datos validos o que permiten nulos contra BD
         {
-            return !string.IsNullOrEmpty(libro.Isbn) && 
-                !string.IsNullOrEmpty(libro.Nombre) && 
-                !string.IsNullOrEmpty(libro.FechaPublicacion) && 
+            return !string.IsNullOrEmpty(libro.Isbn) &&
+                !string.IsNullOrEmpty(libro.Nombre) &&
+                !string.IsNullOrEmpty(libro.FechaPublicacion) &&
                 libro.Autor != 0;
         }
     }
